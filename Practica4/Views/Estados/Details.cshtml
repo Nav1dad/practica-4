@@ -1,0 +1,62 @@
+﻿@model Practica4.Models.Estado
+
+@{
+	ViewData["Title"] = "Detalles de estado";
+}
+
+<div class="card">
+
+	<div class="card-header">
+		<span class="card-title fs-5">
+			Detalle de estado
+		</span>
+	</div>
+
+	<div class="card-body">
+		<dl>
+			<dt>
+				@Html.DisplayNameFor(model => model.Name)
+			</dt>
+			<dd>
+				@Html.DisplayNameFor(model => model.Name)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Descripcion)
+			</dt>
+
+			<dd>
+				@Html.DisplayNameFor(model => model.Descripcion)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Color)
+			</dt>
+
+			<dd>
+				@Html.DisplayNameFor(model => model.Color)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.CreatedAt)
+			</dt>
+
+			<dd>
+				@Html.DisplayNameFor(model => model.CreatedAt)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.UpdatedAt)
+			</dt>
+
+			<dd>
+				@Html.DisplayNameFor(model => model.UpdatedAt)
+			</dd>
+		</dl>
+	</div>
+
+	<div class="card-footer">
+		<a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model?.Id">Editar</a>
+		<a asp-action="Index" class="btn btn-secondary">Regresar</a>
+	</div>
+</div>

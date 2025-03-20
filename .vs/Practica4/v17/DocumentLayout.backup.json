@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Navidad\\source\\repos\\Practica4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\views\\estados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\views\\estados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\views\\estados\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\views\\estados\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\views\\estados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\views\\estados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\views\\estados\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\views\\estados\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\views\\estados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\views\\estados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\controllers\\estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\controllers\\estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Migrations\\20250313214153_InitMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Practica4\\Migrations\\20250313214153_InitMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\migrations\\20250313214153_initmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\migrations\\20250313214153_initmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,19 +59,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Practica4\\Views\\Estados\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Edit.cshtml",
+              "RelativeToolTip": "Practica4\\Views\\Estados\\Edit.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T19:50:10.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Details.cshtml",
+              "RelativeDocumentMoniker": "Practica4\\Views\\Estados\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Details.cshtml*",
+              "RelativeToolTip": "Practica4\\Views\\Estados\\Details.cshtml*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T19:49:40.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Index.cshtml",
               "RelativeDocumentMoniker": "Practica4\\Views\\Estados\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Index.cshtml*",
-              "RelativeToolTip": "Practica4\\Views\\Estados\\Index.cshtml*",
-              "ViewState": "AgIAADIAAAAAAAAAAAAmwDsAAABIAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Index.cshtml",
+              "RelativeToolTip": "Practica4\\Views\\Estados\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-14T02:31:35.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Estado.cs",
               "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Models\\Estado.cs",
               "RelativeDocumentMoniker": "Practica4\\Models\\Estado.cs",
@@ -76,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\appsettings.json",
               "RelativeDocumentMoniker": "Practica4\\appsettings.json",
@@ -84,8 +118,7 @@
               "RelativeToolTip": "Practica4\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-13T23:48:12.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T23:48:12.017Z"
             },
             {
               "$type": "Document",
@@ -95,27 +128,27 @@
               "RelativeDocumentMoniker": "Practica4\\Views\\Estados\\Create.cshtml",
               "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Create.cshtml",
               "RelativeToolTip": "Practica4\\Views\\Estados\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-13T23:37:58.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EstadosController.cs",
               "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Controllers\\EstadosController.cs",
               "RelativeDocumentMoniker": "Practica4\\Controllers\\EstadosController.cs",
               "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Controllers\\EstadosController.cs",
               "RelativeToolTip": "Practica4\\Controllers\\EstadosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAADwvz8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T21:45:00.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "20250313214153_InitMigration.cs",
               "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Migrations\\20250313214153_InitMigration.cs",
               "RelativeDocumentMoniker": "Practica4\\Migrations\\20250313214153_InitMigration.cs",
@@ -123,12 +156,11 @@
               "RelativeToolTip": "Practica4\\Migrations\\20250313214153_InitMigration.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T21:41:53.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T21:41:53.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Program.cs",
               "RelativeDocumentMoniker": "Practica4\\Program.cs",
@@ -136,8 +168,7 @@
               "RelativeToolTip": "Practica4\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T21:31:28.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T21:31:28.204Z"
             }
           ]
         }

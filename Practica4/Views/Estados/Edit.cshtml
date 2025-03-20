@@ -1,6 +1,6 @@
 ﻿@model Practica4.Models.Estado
 @{
-	ViewBag.Title = "Crear estados";
+	ViewBag.Title = "Editar estado";
 }
 
 @if (TempData["Message"] is not null)
@@ -11,13 +11,14 @@
 	</div>
 }
 
-<form asp-action="Create">
+<form asp-action="Edit">
+	<input type="hidden" asp-for="Id" />
 	<div asp-validation-summary="ModelOnly" class="text-danger"></div>
 	<div class="card">
 
 		<div class="card-header">
 			<span class="card-title fs-5">
-				Crear nuevos estados
+				Editar estado
 			</span>
 		</div>
 

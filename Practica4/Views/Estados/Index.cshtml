@@ -2,6 +2,15 @@
 @{
 	ViewBag.Title = "Lista de estados";
 }
+
+@if (TempData["Message"] is not null)
+{
+	<div class="alert alert-@TempData["MessageType"] alert-dismissible fade show" role="alert">
+		@TempData["Message"]
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+	</div>
+}
+
  <div class="card">
 
 	 <div class="card-header">
@@ -73,9 +82,15 @@
 							<a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">
 								Detalles
 							</a>
-							<a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
+
+							<button 
+								type="button"
+								class="btn btn-danger"
+								data-bs-toggle="modal"
+								data-bs-target="#deleteModal"
+								data-id="@item.Id">
 								Eliminar
-							</a>
+							</button>
 						</td>
 					 </tr>
 				 }
@@ -92,3 +107,39 @@
 	 </div>
 
  </div>
+
+ <!-- Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="deleteModalLabel">Modal Title</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				Estas seguro de que quieres eliminar este estado?
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				<form id="form-delete" method="post">
+					<button type="submit" class="btn btn-danger">Eliminar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+@section Scripts {
+	<script>
+		$(document).ready(function(){
+			$('#deleteModal').on('show.bs.modal' , function(event) {
+				const button = $(event.relatedTarget) // que activo el modal
+
+				const id = button.data('id') //extraer la data-id
+
+				$('#form-delete').attr('action', `/Estados/Delete/${id}`)
+
+			});
+		});
+	</script>
+}

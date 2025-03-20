@@ -278,3 +278,4 @@ C:\Users\Navidad\source\repos\Practica4\Practica4\obj\Debug\net8.0\Practica4.gen
 C:\Users\Navidad\source\repos\Practica4\Practica4\obj\Debug\net8.0\ref\Practica4.dll
 C:\Users\Navidad\source\repos\Practica4\Practica4\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\Navidad\source\repos\Practica4\Practica4\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\Navidad\source\repos\Practica4\Practica4\obj\Debug\net8.0\Practica4.sourcelink.json
