@@ -1,0 +1,79 @@
+﻿@model Practica4.Models.Evento
+
+@{
+	ViewData["Title"] = "Detalles del evento";
+}
+
+<div class="card">
+
+	<div class="card-header">
+		<span class="card-title fs-5">
+			Detalle del evento
+		</span>
+	</div>
+
+	<div class="card-body">
+		<dl>
+			<dt>
+				@Html.DisplayNameFor(model => model.Title)
+			</dt>
+			<dd>
+				@Html.DisplayFor(model => model.Title)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Descripcion)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.Descripcion)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.EstadoId)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.Estado.Name)
+				<div style="width: 30px; height: 30px; border: 1px solid #c0c0c0; border-radius: 5px; background: @Model.Estado.Color"></div>
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.StartDate)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.StartDate)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.EndDate)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.EndDate)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.CreatedAd)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.CreatedAd)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.UpdatedAt)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.UpdatedAt)
+			</dd>
+		</dl>
+	</div>
+
+	<div class="card-footer">
+		<a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model?.Id">Editar</a>
+		<a asp-action="Index" class="btn btn-secondary">Regresar</a>
+	</div>
+</div>

@@ -1,0 +1,164 @@
+﻿@model IEnumerable<Practica4.Models.Evento>
+@{
+	ViewBag.Title = "Lista de eventos";
+}
+
+@if (TempData["Message"] is not null)
+{
+	<div class="alert alert-@TempData["MessageType"] alert-dismissible fade show" role="alert">
+		@TempData["Message"]
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+	</div>
+}
+
+<div class="card">
+
+	<div class="card-header">
+		<span class="card-title">
+			Lista eventos
+
+		</span>
+
+		<a asp-action="Create" class="btn btn-primary float-end">
+			Nuevo
+		</a>
+	</div>
+
+
+	<div class="table-responsive">
+		<table class="table table-bordered table-striped table-hover">
+			<thead>
+				<tr>
+					<th>
+						@Html.DisplayNameFor(model => model.Title)
+					</th>
+
+					<th>
+						@Html.DisplayNameFor(model => model.Descripcion)
+					</th>
+
+					<th>
+						@Html.DisplayNameFor(model => model!.EstadoId)
+					</th>
+
+					<th>
+						@Html.DisplayNameFor(model => model.StartDate)
+					</th>
+
+					<th>
+						@Html.DisplayNameFor(model => model.EndDate)
+					</th>
+
+					<th>
+						@Html.DisplayNameFor(model => model.CreatedAd)
+					</th>
+
+					<th>
+						@Html.DisplayNameFor(model => model.UpdatedAt)
+					</th>
+
+					<th>Opciones</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				@if (Model.Count() > 0)
+				{
+					@foreach (var item in Model)
+					{
+						<tr>
+							<td>
+								@Html.DisplayFor(modelItem => item.Title)
+							</td>
+
+							<td>
+								@Html.DisplayFor(modelItem => item.Descripcion)
+							</td>
+
+							<td>
+								@Html.DisplayFor(modelItem => item!.Estado!.Name)
+							</td>
+
+							<td>
+								@Html.DisplayFor(modelItem => item.StartDate)
+							</td>
+
+							<td>
+								@Html.DisplayFor(modelItem => item.EndDate)
+							</td>
+
+							<td>
+								@Html.DisplayFor(modelItem => item.CreatedAd)
+							</td>
+
+							<td>
+								@Html.DisplayFor(modelItem => item.UpdatedAt)
+							</td>
+							<td>
+								<a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">
+									Editar
+								</a>
+								<a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">
+									Detalles
+								</a>
+
+								<button type="button"
+										class="btn btn-danger"
+										data-bs-toggle="modal"
+										data-bs-target="#deleteModal"
+										data-id="@item.Id">
+									Eliminar
+								</button>
+							</td>
+						</tr>
+					}
+				}
+				else
+				{
+					<tr>
+						<td colspan="8">
+							No hay registros
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="deleteModalLabel">Modal Title</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				Estas seguro de que quieres eliminar este evento?
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				<form id="form-delete" method="post">
+					<button type="submit" class="btn btn-danger">Eliminar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+@section Scripts {
+	<script>
+		$(document).ready(function(){
+			$('#deleteModal').on('show.bs.modal' , function(event) {
+				const button = $(event.relatedTarget) // que activo el modal
+
+				const id = button.data('id') //extraer la data-id
+
+				$('#form-delete').attr('action', `/Eventos/Delete/${id}`)
+
+			});
+		});
+	</script>
+}

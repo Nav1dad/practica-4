@@ -30,13 +30,13 @@ namespace Practica4.Models
 
         public int EstadoId { get; set; }
 
-        public List<Estado>? Estado {  get; set; }
+        public Estado? Estado {  get; set; }
 
         [Display(Name = "Creado en")]
 
         public DateTime? CreatedAd { get; set; }
         [Display(Name = "Actualizado en")]
 
-        public DateTime UpdatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
     }
 }
