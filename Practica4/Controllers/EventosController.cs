@@ -1,4 +1,5 @@
-﻿using System.Runtime.InteropServices;
+﻿using System.Drawing;
+using System.Runtime.InteropServices;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -119,7 +120,7 @@ namespace Practica4.Controllers
             }
 
             //Mensaje de error
-            TempData["Message"] = "Erro al actualizar el evento. Verifica los datos";
+            TempData["Message"] = "Error al actualizar el evento. Verifica los datos";
             TempData["MessageType"] = "error";
 
             ViewData["EstadoId"] = new SelectList(_context.Estados, "Id", "Name", evento.EstadoId);
@@ -143,6 +144,22 @@ namespace Practica4.Controllers
             TempData["Mensaje"] = "El evento se ha eliminado corretamente";
             TempData["MessageType"] = "success";
             return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+
+        public async Task<IActionResult> GetEventos()
+        {
+            var eventos = await _context.Eventos.Include(e => e.Estado).Select(e => new
+            {
+                id = e.Id,
+                title = e.Title,
+                start = e.StartDate,
+                end = e.EndDate,
+                description = e.Descripcion,
+                Color = e.Estado.Color
+            }).ToListAsync();
+            return Json(eventos);
         }
     }
 }

@@ -1,8 +1,50 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@section Scripts {
+	<script src="~/lib/fullcalendar-6.1.15/dist/index.global.min.js"></script>
+	<script src="~/lib/fullcalendar-6.1.15/packages/google-calendar/index.global.min.js"></script>
+	<script src="~/lib/fullcalendar-6.1.15/packages/core/locales/es.global.js"></script>
+	<script src="~/lib/fullcalendar-6.1.15/packages/interaction/index.global.js"></script>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+	<div id="calendar"></div>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function(){
+			const calendarEl = document.getElementById('calendar');
+
+			const calendar = new FullCalendar.Calendar(calendarEl, {
+				initialView: 'dayGridMonth',
+				timeZone: 'America/El_Salvador',
+				events: 'Eventos/GetEventos',
+				dayMaxEvents: true,
+				navLinks: true,
+				editable: true,
+				slotLabelFormat: {
+					hour: 'numeric',
+					minute: '2-digit',
+					meridiem: 'short',
+					hour12: true,
+				},
+				eventTimeFormat: {
+					hour: 'numeric',
+					minute: '2-digit',
+					meridiem: 'short',
+					hour12: true,
+				},
+				locale: 'es',
+				headerToolbar: { // CORREGIDO
+					left: 'prev,next today',
+					center: 'title',
+					right: 'dayGridMonth,timeGridWeek,timeGridDay'
+				},
+				buttonText: {
+					today: 'Hoy',
+					month: 'Mes',
+					week: 'Semana',
+					day: 'Día',
+					list: 'Lista'
+				}
+			});
+
+			calendar.render();
+		});
+	</script>
+}
