@@ -24,6 +24,22 @@
 		</a>
 	</div>
 
+	<div class="table-responsive">
+		<div class="p-2">
+			<form method="get" action="@Url.Action("Index")">
+				<div class="input-group mb-3">
+					<input type="text"
+						   class="form-control"
+						   name="search"
+						   value="@ViewBag.Search"
+						   placeholder="Buscar..."
+						   aria-label="Buscar..."
+						   aria-describedby="button-addon2">
+					<button class="btn btn-outline-secondary" type="submit" id="button-addon2">Buscar</button>
+				</div>
+			</form>
+		</div>
+	</div>
 
 	<div class="table-responsive">
 		<table class="table table-bordered table-striped table-hover">
@@ -125,6 +141,21 @@
 		</table>
 	</div>
 
+	<div class="card-footer">
+		<nav>
+			<ul class="pagination">
+				@for (int i = 1; i <= ViewBag.TotalPages; i++)
+				{
+					<li class="page-item @(i == ViewBag.CurrentPage ? "active": "")">
+						<a class="page-link" href="@Url.Action("Index", new {page = i})">
+							@i
+						</a>
+					</li>
+				}
+			</ul>
+		</nav>
+	</div>
+
 </div>
 
 <!-- Modal -->
@@ -162,3 +193,4 @@
 		});
 	</script>
 }
+

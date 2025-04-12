@@ -3,52 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Navidad\\source\\repos\\Practica4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\views\\estados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\views\\estados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\controllers\\estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\controllers\\estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\views\\estados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\views\\estados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\views\\estados\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\views\\estados\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|c:\\users\\navidad\\source\\repos\\practica4\\practica4\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3809441-1A1F-4CCF-AA00-0C95B8C25B81}|Practica4\\Practica4.csproj|solutionrelative:practica4\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,149 +39,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Practica4\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Practica4\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAwwB8AAAB5AAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Index.cshtml",
+              "RelativeDocumentMoniker": "Practica4\\Views\\Estados\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Index.cshtml",
+              "RelativeToolTip": "Practica4\\Views\\Estados\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T23:45:46.766Z",
+              "WhenOpened": "2025-04-09T16:21:57.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EstadosController.cs",
+              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Controllers\\EstadosController.cs",
+              "RelativeDocumentMoniker": "Practica4\\Controllers\\EstadosController.cs",
+              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Controllers\\EstadosController.cs",
+              "RelativeToolTip": "Practica4\\Controllers\\EstadosController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T16:18:14.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Practica4\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "Practica4\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T23:09:25.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Details.cshtml",
-              "RelativeDocumentMoniker": "Practica4\\Views\\Estados\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Details.cshtml",
-              "RelativeToolTip": "Practica4\\Views\\Estados\\Details.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwD0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T20:35:21.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Eventos\\Details.cshtml",
-              "RelativeDocumentMoniker": "Practica4\\Views\\Eventos\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Eventos\\Details.cshtml",
-              "RelativeToolTip": "Practica4\\Views\\Eventos\\Details.cshtml",
-              "ViewState": "AgIAAEQAAAAAk6DXs2QjwE8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T20:35:10.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Estado.cs",
-              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Models\\Estado.cs",
-              "RelativeDocumentMoniker": "Practica4\\Models\\Estado.cs",
-              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Models\\Estado.cs",
-              "RelativeToolTip": "Practica4\\Models\\Estado.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T19:42:01.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Evento.cs",
-              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Models\\Evento.cs",
-              "RelativeDocumentMoniker": "Practica4\\Models\\Evento.cs",
-              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Models\\Evento.cs",
-              "RelativeToolTip": "Practica4\\Models\\Evento.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T19:28:39.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Eventos\\Index.cshtml",
               "RelativeDocumentMoniker": "Practica4\\Views\\Eventos\\Index.cshtml",
               "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Eventos\\Index.cshtml",
               "RelativeToolTip": "Practica4\\Views\\Eventos\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAuwIoAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAswI4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T18:55:53.961Z"
+              "WhenOpened": "2025-04-09T15:24:09.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "EventosController.cs",
               "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Controllers\\EventosController.cs",
               "RelativeDocumentMoniker": "Practica4\\Controllers\\EventosController.cs",
-              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Controllers\\EventosController.cs*",
-              "RelativeToolTip": "Practica4\\Controllers\\EventosController.cs*",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAcwJ8AAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Controllers\\EventosController.cs",
+              "RelativeToolTip": "Practica4\\Controllers\\EventosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T18:25:42.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\appsettings.json",
-              "RelativeDocumentMoniker": "Practica4\\appsettings.json",
-              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\appsettings.json",
-              "RelativeToolTip": "Practica4\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-13T23:48:12.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Create.cshtml",
-              "RelativeDocumentMoniker": "Practica4\\Views\\Estados\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Views\\Estados\\Create.cshtml",
-              "RelativeToolTip": "Practica4\\Views\\Estados\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T23:37:58.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EstadosController.cs",
-              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Controllers\\EstadosController.cs",
-              "RelativeDocumentMoniker": "Practica4\\Controllers\\EstadosController.cs",
-              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Controllers\\EstadosController.cs",
-              "RelativeToolTip": "Practica4\\Controllers\\EstadosController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T21:45:00.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Program.cs",
-              "RelativeDocumentMoniker": "Practica4\\Program.cs",
-              "ToolTip": "C:\\Users\\Navidad\\source\\repos\\Practica4\\Practica4\\Program.cs",
-              "RelativeToolTip": "Practica4\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T21:31:28.204Z"
+              "WhenOpened": "2025-04-09T15:09:17.077Z"
             }
           ]
         }

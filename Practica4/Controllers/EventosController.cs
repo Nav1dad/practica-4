@@ -11,17 +11,44 @@ namespace Practica4.Controllers
     public class EventosController : Controller
     {
         private readonly AgendaDbContext _context;
+        private const int PageSize = 5; // paginas maximas
 
         public EventosController(AgendaDbContext context)
         {
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string search, int page = 1)
         {
-            var listaEventos = _context.Eventos.Include(e => e.Estado).ToList(); // select * from eventos join Estados on Eventos.EstadpoIs = Estados.Id
+            var query = _context.Eventos.AsQueryable();
+
+            // aplicar filtro de busqueda
+
+            if (!string.IsNullOrEmpty(search))
+            {
+                query = query.Where(e => e.Title.Contains(search) || e.Descripcion.Contains(search) || e.Estado.Name.Contains(search));
+            }
+
+
+            // aplicar paginacion
+            var listaEventos = query
+                .OrderBy(e => e.Id)
+                .Include(e => e.Estado)
+                .Skip((page - 1) * PageSize) // Saltar los registros de las paginas anteriores
+                .Take(PageSize)
+                .ToList();
+
+            // Contara numero de registros
+            var totalRegistros = query.Count();
+            var totalPaginas = (int)Math.Ceiling((double)totalRegistros / PageSize);
+
+            ViewBag.CurrentPage = page;
+            ViewBag.TotalPages = totalPaginas;
+            ViewBag.Search = search;
+
             return View(listaEventos);
         }
+
 
         public IActionResult Create()
         {

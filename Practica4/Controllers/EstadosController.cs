@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Practica4.Data;
 using Practica4.Models;
 
@@ -7,16 +8,40 @@ namespace Practica4.Controllers
     public class EstadosController : Controller
     {
         private readonly AgendaDbContext _context;
+        private const int PageSize = 5; // paginas maximas
         public EstadosController(AgendaDbContext context)
         {
             _context = context;
         }
-        public IActionResult Index()
+        public IActionResult Index(string search, int page = 1)
         {
-            var listaEstados = _context.Estados.ToList(); // SELECT * FROM Estados
-            return View(listaEstados);
+            var query = _context.Estados.AsQueryable(); // Trabajando con Estados
+
+            // Aplicar filtro de búsqueda
+            if (!string.IsNullOrEmpty(search))
+            {
+                query = query.Where(e => e.Name.Contains(search) || e.Descripcion.Contains(search));
+            }
+
+            // Aplicar paginación
+            var listaEstados = query
+                .OrderBy(e => e.Id)
+                .Skip((page - 1) * PageSize)
+                .Take(PageSize)
+                .ToList();
+
+            // Contar el número de registros
+            var totalRegistros = query.Count();
+            var totalPaginas = (int)Math.Ceiling((double)totalRegistros / PageSize);
+
+            ViewBag.CurrentPage = page;
+            ViewBag.TotalPages = totalPaginas;
+            ViewBag.Search = search;
+
+            return View(listaEstados); // Pasar lista de estados a la vista
         }
-        
+
+
         public IActionResult Create()
         {
             return View();
@@ -48,7 +73,7 @@ namespace Practica4.Controllers
 
         public IActionResult Details(int? id)
         {
-            if (id == null)           
+            if (id == null)
             {
                 return NotFound();
             }
